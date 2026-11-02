@@ -5,14 +5,15 @@ Análisis no supervisado del catálogo de Steam para agrupar los juegos según s
 ## Curso
 Herramientas para Inteligencia Artificial
 
-## Estructura del notebook (`steam_games.ipynb`)
+## Estructura del notebook
 
-1. Descarga del dataset con `kagglehub`.
-2. Lectura de datos con Pandas (solo las columnas necesarias).
-3. Preparación: Número de owners, filtro de juegos con datos confiables, outliers, escala logarítmica y estandarización.
-4. Histogramas con Bokeh.
-5. Elbow method para elegir el número de clusters.
+1. Descarga del dataset.
+2. Lectura de datos con Pandas.
+3. Preparación de los datos.
+4. Histogramas.
+5. Número de clusters.
 6. K-Means con 3 clusters.
-7. Gráficos de dispersión de los grupos.
-8. Estadísticas y juegos más populares de cada grupo.
-9. Clasificación de un juego nuevo.
+7. Gráficos de los grupos.
+8. Estadísticas de cada grupo.
+9. Clasificar un juego nuevo.
+10. Conclusiones
